@@ -42,7 +42,6 @@ namespace WindowsFormsApplication_15.Properties
         {
             get
             {
-                if ((resourceMan == null))
                 {
                     global::System.Resources.ResourceManager temp = new global::System.Resources.ResourceManager("WindowsFormsApplication_15.Properties.Resources", typeof(Resources).Assembly);
                     resourceMan = temp;
