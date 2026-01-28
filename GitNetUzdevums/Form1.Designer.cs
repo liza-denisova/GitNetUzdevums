@@ -32,8 +32,11 @@
             this.button1 = new System.Windows.Forms.Button();
             this.button2 = new System.Windows.Forms.Button();
             this.groupBox1 = new System.Windows.Forms.GroupBox();
+            this.GroupBoxJDenisova = new System.Windows.Forms.GroupBox();
+            this.ButtonJDenisova = new System.Windows.Forms.Button();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.groupBox1.SuspendLayout();
+            this.GroupBoxJDenisova.SuspendLayout();
             this.SuspendLayout();
             // 
             // pictureBox1
@@ -75,17 +78,39 @@
             this.groupBox1.TabStop = false;
             this.groupBox1.Text = "Andrejs Liepiņš";
             // 
+            // GroupBoxJDenisova
+            // 
+            this.GroupBoxJDenisova.Controls.Add(this.ButtonJDenisova);
+            this.GroupBoxJDenisova.Location = new System.Drawing.Point(18, 109);
+            this.GroupBoxJDenisova.Name = "GroupBoxJDenisova";
+            this.GroupBoxJDenisova.Size = new System.Drawing.Size(200, 100);
+            this.GroupBoxJDenisova.TabIndex = 4;
+            this.GroupBoxJDenisova.TabStop = false;
+            this.GroupBoxJDenisova.Text = "Jelizaveta Denisova";
+            // 
+            // ButtonJDenisova
+            // 
+            this.ButtonJDenisova.Location = new System.Drawing.Point(7, 20);
+            this.ButtonJDenisova.Name = "ButtonJDenisova";
+            this.ButtonJDenisova.Size = new System.Drawing.Size(75, 23);
+            this.ButtonJDenisova.TabIndex = 0;
+            this.ButtonJDenisova.Text = "y=x*x-5";
+            this.ButtonJDenisova.UseVisualStyleBackColor = true;
+            this.ButtonJDenisova.Click += new System.EventHandler(this.ButtonJDenisova_Click);
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(1016, 415);
+            this.Controls.Add(this.GroupBoxJDenisova);
             this.Controls.Add(this.groupBox1);
             this.Controls.Add(this.pictureBox1);
             this.Name = "Form1";
             this.Text = "Funkciju grafiki";
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
             this.groupBox1.ResumeLayout(false);
+            this.GroupBoxJDenisova.ResumeLayout(false);
             this.ResumeLayout(false);
 
         }
@@ -96,6 +121,8 @@
         private System.Windows.Forms.Button button1;
         private System.Windows.Forms.Button button2;
         private System.Windows.Forms.GroupBox groupBox1;
+        private System.Windows.Forms.GroupBox GroupBoxJDenisova;
+        private System.Windows.Forms.Button ButtonJDenisova;
     }
 }
 
